@@ -2,6 +2,8 @@ body,p{
 color: #141414;
 font-family:arial;
 font-size:18pt;
+padding:0px;
+margin:0px;
 }
 
 #screen{
@@ -36,3 +38,14 @@ float:left;
 padding-left:10px;
 
 }
+
+
+
+    #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #screen { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
