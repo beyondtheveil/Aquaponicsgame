@@ -1,7 +1,7 @@
 body,p{
 color: #141414;
 font-family:arial;
-font-size:18pt;
+font-size:2em;
 padding:0px;
 margin:0px;
 }
@@ -22,12 +22,10 @@ border-radius:0px 0px 25px 25px;
 }
 
 .topicon{
-padding:10px;
-padding-right:22px;
-padding-left:22px;
+padding-left:2%;
 float:left;
 
-height:90%;
+height:100%;
 outline:none;
 border-radius:25px 25px 0px 0px;
 }
